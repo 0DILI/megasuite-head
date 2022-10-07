@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+li,
+a,
+button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #051c4b;
+  border-bottom: 1px solid silver;
+}
+
+.logo {
+  cursor: pointer;
+  height: 27px;
+  margin-right: 50px;
+  margin-left: -30px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.nav-button {
+  padding: 9px 25px;
+  background-color: rgb(42, 62, 102);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: all 0 3s ease 0s;
+}
+
+.nav-button:hover:hover {
+  background-color: rgb(18, 18, 19);
+}
+
+nav {
+  border-bottom: 2px red;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+.sect-1 {
+  background-color: #051c4b;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sec-txt1 {
+  padding-top: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36.4px;
+  color: white;
+}
+
+.sec-txt2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.qr-code {
+  height: 50px;
+
+  margin-left: 20px;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.container > .sect-box1 {
+  flex: 1;
+}
+.container > .sect-box2 {
+  flex: 1;
+}
+.container > .sect-box3 {
+  flex: 1;
+}
+.container > .sect-box4 {
+  flex: 1;
+}
+
+.sect-box1 {
+  background-image: linear-gradient(to right, #ffb600 10%, #fff000);
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sect-box2 {
+  background-image: linear-gradient(to right, #7300ff 10%, #b600ff);
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+  border-radius: 15px;
+}
+
+.sect-box3 {
+  background-image: linear-gradient(to right, #00aad9 10%, #0084d9);
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+  border-radius: 15px;
+}
+
+.sect-box4 {
+  background: #272f44;
+  padding: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+  border-radius: 15px;
+}
+
+.store {
+  background-color: #051c4b;
+  color: white;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.name {
+  padding-bottom: 5px;
+}
